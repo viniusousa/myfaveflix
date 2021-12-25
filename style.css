@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+header{
+    background-color: #970B78;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 4px 2px 2px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+h1#mainname{
+    color: black;
+    padding: 10px; 
+    font-weight: bolder;
+    
+}
+
+.listac{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;   
+    margin-left: 20px; 
+}
+
+.listac:hover{
+    color: black;
+    font-weight: bolder;
+    
+}
+
+img#home{
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    padding: 15px;
+    
+}
+
+div#sinopse{
+    width: 44.063rem;
+    height: 31.25rem;
+}
+
+div#titlecont{
+    height: 12.25rem;
+}
+
+h1#titlesin{
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+div#bodysin{
+    width: 705px;
+    height: 304px;
+    font-size: 24px;
+    text-align: center;
+}
+
+div#mainfilm{
+    width: 63.688rem;
+}
+
+section#capafilm{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+div#textsin{
+    height: 221px;
+}
+
+div#info{
+    height: 62px;
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.nref{
+    padding-left: 20px;
+}
+
+.listas{
+    width: 100%;
+    height: 240px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imglistas{
+    display: flex;
+    
+}
+
+.imglist{
+    width: 295px;
+    height: 180px;
+    padding-left: 15px;
+}
+
+footer{
+    text-align: center;
+    margin: 15px;
+}
+
+a#meugit{
+    text-decoration: none;
+    color: white;
+}
