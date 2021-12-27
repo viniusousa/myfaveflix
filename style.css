@@ -17,8 +17,8 @@ header{
     display: flex;
     align-items: center;
     box-shadow: 2px 4px 2px 2px black;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     
 }
 
@@ -72,8 +72,12 @@ div#bodysin{
     text-align: center;
 }
 
-div#mainfilm{
-    width: 63.688rem;
+
+
+img#maincene{
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
 }
 
 section#capafilm{
@@ -98,22 +102,24 @@ div#info{
 }
 
 .listas{
-    width: 100%;
-    height: 240px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     
+    padding: 10px;
+    height: 200px;
 }
+
 
 .imglistas{
     display: flex;
+    height: 180px;
+    width: 100%;
+    
     
 }
 
 .imglist{
     width: 295px;
     height: 180px;
+    margin-left: 10px;
     padding-left: 15px;
 }
 
