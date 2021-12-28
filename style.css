@@ -55,39 +55,97 @@ div#sinopse{
     height: 31.25rem;
 }
 
-div#titlecont{
-    height: 12.25rem;
+@media (max-width: 520px) {
+    h1#mainname{
+        font-size: 1.3rem;
+    }
+
+    h1#titlesin{
+        max-width: 210px;
+        font-size: 1.2rem;
+        padding: 5px;
+        text-align: center;
+    }
+    div#bodysin{
+        max-width: 210px;
+        height: 155px;
+        font-size: 12px;
+        text-align: center;
+    }
+    img#maincene{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+    }
+
+    section#capafilm{
+        max-width: 100%;
+        height: 200px;
+        padding: 10px;
+    }
+
 }
 
-h1#titlesin{
-    font-size: 60px;
-    padding: 10px;
-    text-align: center;
+@media (min-width:521px) {
+    h1#titlesin{
+        max-width: 350px;
+        font-size: 1.875rem;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    div#bodysin{
+        
+        max-width: 350px;
+        height: 200px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img#maincene{
+        width: 600px;
+        max-width: 100%;
+        height: 250px;
+        border-radius: 5px;
+    }
+
+    section#capafilm{
+        max-width: 100%;
+        height: 250px;
+        padding: 10px;
+    }
 }
 
-div#bodysin{
-    width: 705px;
-    height: 304px;
-    font-size: 24px;
-    text-align: center;
-}
+@media (min-width: 1024px) {
+    h1#titlesin{
+        max-width: 705px;
+        font-size: 3.75rem;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    div#bodysin{  
+        max-width: 705px;
+        height: 304px;
+        font-size: 24px;
+        text-align: center;
+    }
 
+    img#maincene{
+        width: 800px;
+        max-width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
 
-
-img#maincene{
-    width: 800px;
-    height: 500px;
-    border-radius: 5px;
+    section#capafilm{
+        max-width: 100%;
+        height: 500px;
+    }
 }
 
 section#capafilm{
-    width: 100%;
-    height: 500px;
     display: flex;
-}
-
-div#textsin{
-    height: 221px;
 }
 
 div#info{
@@ -107,13 +165,10 @@ div#info{
     height: 200px;
 }
 
-
 .imglistas{
     display: flex;
     height: 180px;
     width: 100%;
-    
-    
 }
 
 .imglist{

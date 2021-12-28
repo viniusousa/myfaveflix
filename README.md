@@ -1,3 +1,4 @@
-#MYFAVFLIX: inpirada na Netflix
-<p>Mostando alguns filmes e séries que eu gosto em forma de tela inicial, a ideia é adicionar mais filmes e séries e exibir em forma de slider</p>
-<p>Por enquanto só vou subir o HTML e CSS, também pretendo renderizar o filme/série selecionado na parte de cima.</p>
+<h1>MYFAVFLIX: inpirada na Netflix</h1>
+<p>Fiz uma tela inspirada na Netflix na qual exibo alguns filmes e séries que eu gosto em forma de carrossel.</p>
+<p>Para o layout use um display in-line, e também Media Queries para que fique responsivo.</p>
+<p>Para o carrossel/slider decidi fazer uso do Glider.js</p>
