@@ -257,3 +257,7 @@ a#meugit{
     text-decoration: none;
     color: white;
 }
+
+div#phonesep{
+    padding-top: 30px;
+}
